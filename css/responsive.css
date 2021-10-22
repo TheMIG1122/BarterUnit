@@ -1,0 +1,399 @@
+@media screen and (max-width: 1450px) {
+	.leftCard {
+		max-width: 500px;
+		padding-right: 40px;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.leftCard {
+		max-width: 470px;
+		padding-right: 70px;
+	}
+	.small,
+	small {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.ubiBanner {
+		background-size: cover;
+	}
+	.simpleBox.wm-100 br {
+		display: none;
+	}
+	.offringBox01,
+	.offringBox02,
+	.offringBox03 {
+		width: 100%;
+	}
+	.leftCard {
+		max-width: 600px;
+		padding-right: 70px;
+		margin: 0 auto;
+	}
+	.localBusinessInner {
+		max-width: 590px;
+		margin-left: auto;
+		padding: 0 10px;
+	}
+	.businessBanner {
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	.barterNav .navbar-nav .nav-link {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+	.homeBanner {
+		height: auto;
+	}
+	.ubiBannerI,
+	.edcBannerC {
+		height: 60vh;
+	}
+	.ubiBannerC h2 br {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		max-width: 97%;
+	}
+	button.navbar-toggler img {
+		max-width: 40px;
+	}
+	button.navbar-toggler:focus {
+		outline: none
+	}
+	ul.navbar-nav.ml-auto.align-items-center {
+		display: block;
+	}
+	.navbar-nav li:first-child {
+		padding-top: 25px;
+	}
+	.navbar-nav li:last-child {
+		padding-bottom: 25px;
+	}
+	.barterNav .navbar-nav a {
+		padding: 3px 0 !important;
+		border-bottom: 1px solid #fff;
+		display: block;
+		border-radius: 0;
+	}
+	.barterNav {
+		position: static;
+		width: 100%;
+		background-color: rgb(32, 93, 183);
+		padding: 6px 0;
+	}
+	a.navbar-brand img {
+		max-width: 200px;
+	}
+	.barterNav .navbar-nav li.navItemBG.ml-4 {
+		margin: 0 !important;
+	}
+	li.navItemBG a {
+		padding: 3px 0;
+	}
+	li.navItemBG {
+		margin: 0 !important;
+	}
+	.homeBannerImage {
+		margin-top: 30px;
+	}
+	.homeBannerContent h2 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.homeBannerContent a img {
+		width: 120px;
+	}
+	.homeBannerContent a.pl-4 {
+		padding-left: 10px !important;
+	}
+	.halfCircle::after {
+		height: 110px;
+		top: 0px
+	}
+	.digitalMoneyInner h3 {
+		max-width: 95%;
+	}
+	.stepContent br {
+		display: none;
+	}
+	.stepContent {
+		padding: 35px 20px !important;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.homeBanner {
+		height: auto;
+		background-size: cover;
+	}
+	.ubiBannerC h2 {
+		font-size: 20px;
+		margin-top: 8px;
+	}
+	.ubiBannerI {
+		height: auto;
+	}
+	.ubiBannerI {
+		height: auto;
+		padding: 100px 0;
+	}
+	.edcBannerC {
+		height: auto;
+		padding: 150px 0;
+	}
+	.businessBanner {
+		background-size: cover;
+		display: none;
+	}
+	.graph12 {
+		display: none;
+	}
+	.localBusinessInner {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 90px 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.homeBanner .col-md-6.d-flex.align-items-center {
+		display: block !important;
+		text-align: center;
+	}
+	.homeBannerImage img {
+		width: 300px;
+	}
+	.whatIsIt {
+		padding: 100px 0 60px;
+	}
+	.backBox {
+		position: relative;
+		max-width: 90%;
+		margin: 0 auto 75px;
+	}
+	.title {
+		font-size: 26px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.title::after {
+		right: 0;
+		margin: 0 auto;
+	}
+	.graphic01 img,
+	.agendaImage img,
+	.graphic03 img,
+	.graphics04 img,
+	.graphics01 img {
+		max-width: 300px;
+		display: block;
+		margin: 25px auto 25px;
+	}
+	.col-md-6.col-lg-7.d-flex.align-items-center.justify-content-center {
+		display: block !important;
+	}
+	.simpleBox {
+		max-width: 96%;
+	}
+	.doubleBG.pl-5 {
+		padding: 0 !important;
+		text-align: center;
+	}
+	.step-1.ml-auto.mr-auto {
+		margin-left: 0 !important;
+	}
+	.step-1.ml-auto {
+		margin-left: 0 !important;
+	}
+	.footerTop {
+		text-align: center;
+	}
+	.footerTop .pl-5 {
+		padding-left: 0 !important
+	}
+	ul.teamList {
+		margin-top: 30px;
+		display: block !important;
+	}
+	.footerTop h2 br {
+		display: none;
+	}
+	.footerPlayIcon a {
+		display: inline-block;
+		margin: 0 5px;
+		display: block;
+		margin: 15px 0 15px 0!important;
+	}
+	.folowUs.text-right {
+		text-align: center !important;
+		margin-top: 24px;
+	}
+	.digitalMoney {
+		background-size: cover;
+	}
+	img.waveImage {
+		display: none;
+	}
+	.ubiBannerI img {
+		display: block;
+		max-width: 300px;
+	}
+	.ubiBannerI {
+		height: auto;
+		padding: 40px 0;
+	}
+	.ubiBannerC {
+		padding-top: 50px;
+	}
+	.digitalMoneyInner h1 {
+		font-size: 38px;
+	}
+	.offringBox01,
+	.offringBox02,
+	.offringBox03 {
+		width: 100%;
+		height: auto;
+		margin: 25px 0;
+	}
+	.relationships h2 br {
+		display: none;
+	}
+	.relationships h2 {
+		padding-top: 50px;
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.benefitSI img {
+		width: 300px;
+		display: block;
+		margin: 25px auto;
+	}
+	.benefitSC {
+		padding-left: 0;
+		text-align: center;
+		padding: 40px 15px;
+	}
+	.benefitSC br {
+		display: none;
+	}
+	.benefitSC.benefitP {
+		padding-left: 15px;
+	}
+	.formBox.pt-3.pb-3.pr-5.pl-0 {
+		padding: 0 20px !important;
+	}
+	.graph15 {
+		display: none;
+	}
+	.formFS::after {
+		display: none;
+	}
+	.graph14 {
+		display: none;
+	}
+	.formBox.pt-3.pb-3.pl-5.pr-0 {
+		padding: 20px 20px !important;
+	}
+	.form-group {
+		margin-bottom: 1rem;
+	}
+	.formSS {
+		background-color: #fafbfc;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.formSubmitBtn {
+		position: static;
+		bottom: 0;
+		right: 50px;
+		display: block;
+		margin: 30px auto 0;
+	}
+	.graph17 {
+		padding-bottom: 50px !important;
+	}
+	.formBox.pt-3.pb-3.pl-5.pl-0 {
+		padding: 0 20px !important;
+	}
+	small.formSmall01 {
+		display: block;
+		position: relative;
+		z-index: 9999;
+		padding-bottom: 40px;
+		font-weight: 500;
+		max-width: 100%;
+		font-size: 11px;
+	}
+	.leftTitle h2 {
+		color: #0e1828;
+		padding-left: 40px;
+		font-size: 24px;
+		font-weight: 700;
+		padding-top: 20px;
+		text-align: center;
+		padding-left: 0;
+		padding-bottom: 10px;
+	}
+	.p-3.text-right.pr-5.formActionBtns {
+		text-align: center !important;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.leftCard {
+		max-width: 100%;
+		padding-right: 0;
+		margin: 0 auto;
+	}
+	.opetHoursBox {
+		position: relative;
+		right: 0;
+		bottom: 0;
+		max-width: 95%;
+		margin: 15px 0 50px;
+	}
+	.businessLogo {
+		position: absolute;
+		right: -10px;
+		top: -90px;
+	}
+	.businessListing h1 {
+		margin-bottom: 100px;
+	}
+	.businessGName.leftCard .col-6 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.businessGFoot {
+		background-color: rgba(255, 255, 255, 0.459);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		padding: 15px 15px 15px 25px;
+		display: block !important;
+	}
+	.opetHours::after {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.sliderText p {
+		font-size: 14px;
+	}
+	.testimonailName h2 {
+		font-size: 14px;
+	}
+}

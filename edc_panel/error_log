@@ -1,0 +1,15 @@
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined variable: password in /home/bartwkhs/public_html/resources/functions.php on line 2381
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined index: monday in /home/bartwkhs/public_html/resources/functions.php on line 2383
+[06-Feb-2021 14:25:18 America/New_York] PHP Warning:  implode(): Invalid arguments passed in /home/bartwkhs/public_html/resources/functions.php on line 2383
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined index: tuesday in /home/bartwkhs/public_html/resources/functions.php on line 2385
+[06-Feb-2021 14:25:18 America/New_York] PHP Warning:  implode(): Invalid arguments passed in /home/bartwkhs/public_html/resources/functions.php on line 2385
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined index: wednesday in /home/bartwkhs/public_html/resources/functions.php on line 2387
+[06-Feb-2021 14:25:18 America/New_York] PHP Warning:  implode(): Invalid arguments passed in /home/bartwkhs/public_html/resources/functions.php on line 2387
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined index: thursday in /home/bartwkhs/public_html/resources/functions.php on line 2389
+[06-Feb-2021 14:25:18 America/New_York] PHP Warning:  implode(): Invalid arguments passed in /home/bartwkhs/public_html/resources/functions.php on line 2389
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined index: friday in /home/bartwkhs/public_html/resources/functions.php on line 2391
+[06-Feb-2021 14:25:18 America/New_York] PHP Warning:  implode(): Invalid arguments passed in /home/bartwkhs/public_html/resources/functions.php on line 2391
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined index: saturday in /home/bartwkhs/public_html/resources/functions.php on line 2393
+[06-Feb-2021 14:25:18 America/New_York] PHP Warning:  implode(): Invalid arguments passed in /home/bartwkhs/public_html/resources/functions.php on line 2393
+[06-Feb-2021 14:25:18 America/New_York] PHP Notice:  Undefined index: sunday in /home/bartwkhs/public_html/resources/functions.php on line 2395
+[06-Feb-2021 14:25:18 America/New_York] PHP Warning:  implode(): Invalid arguments passed in /home/bartwkhs/public_html/resources/functions.php on line 2395
