@@ -16,7 +16,7 @@
     <!-- Bootstrap / Style CSS -->
     <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-01.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../js/wickedpicker.min.js"></script>

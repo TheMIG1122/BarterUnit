@@ -12,7 +12,7 @@
     <!-- Bootstrap / Style CSS -->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-01.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>UBI Register Form</title>
 </head>

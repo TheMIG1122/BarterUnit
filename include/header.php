@@ -24,30 +24,25 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="images/icons/menu_icon.png" alt="">
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ubi.php">UNIVERSAL BASIC INCOME (UBI)</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="edc.php">MERCHANTS (EDC)</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
-                    </li>
-
-                    <!-- <li class="navItemBG ml-4">
-                        <a href="ubi.html">UBI</a>
-                    </li>
-
-                    <li class="navItemBG mr-0">
-                        <a href="edc.html">EDC</a>
-                    </li> -->
-
-                </ul>
-            </div>
+            <ul class="navbar-nav ml-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="how-it-works.html">HOW IT WORKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">BARTERUNITS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ubi.php">UBI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="edc.php">MERCHANTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
+                        </li>
+                    </ul>
         </div>
     </nav>
