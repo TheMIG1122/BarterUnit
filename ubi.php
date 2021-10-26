@@ -34,7 +34,7 @@
                             <a class="nav-link" href="how-it-works.html">HOW IT WORKS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php">BARTERUNITS</a>
+                            <a class="nav-link" href="barterunit.php">BARTERUNITS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="ubi.php">UBI</a>

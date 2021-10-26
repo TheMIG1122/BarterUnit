@@ -11,360 +11,177 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/responsive.css" />
-        <title>Home | Barter Unit</title>
+        <title>Home Page | Barter Unit</title>
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg barterNav">
+        <nav class="navbar navbar-expand-lg barterNav staticNav">
             <div class="container">
-                <a class="navbar-brand" href="#"> <img src="images/brand/logo.png" alt="" /> </a>
+                <a class="navbar-brand d-block d-lg-none" href="#"> <img src="images/brand/logo.png" alt="" /> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <img src="images/icons/menu_icon.png" alt="" />
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="how-it-works.html">HOW IT WORKS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">BARTERUNITS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ubi.php">UBI</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="edc.php">MERCHANTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
-                        </li>
-                    </ul>
+                  <ul class="navbar-nav ml-auto align-items-center">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.php">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="how-it-works.html">HOW IT WORKS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="barterunit.php">BARTERUNITS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="ubi.php">UBI</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="edc.php">MERCHANTS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
+                      </li>
+                  </ul>
                 </div>
             </div>
         </nav>
 
-        <section class="homeBanner">
+        <section class="updatedBanner">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
-                        <div class="homeBannerContent wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                <div class="row ">
+                    <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="updatedBannerInner wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+                            <img class="dark-logo" src="images/brand/dark-logo.png" alt="" />
+
                             <h2>
-                                <span>
-                                    The New Multinational Digital Currency <br />
-                                    and Payment Settlement System.
-                                </span>
+                                <span>BarterUnit<sup>®</sup> </span> - A place to post, trade your goods, services and unwanted items.
                             </h2>
 
-                            <h4>experience OUR app on</h4>
-                            <a href="#"> <img src="images/icons/google-store.png" alt="" /> </a>
-                            <a href="#" class="pl-4"> <img src="images/icons/app-store.png" alt="" /> </a>
+                            <h2>A Sharing Economy helping to extend the lifespan of products.</h2>
+
+                            <div class="">
+                                <h4>experience OUR app on</h4>
+                                <a href="https://play.google.com/store/apps/details?id=com.barterunit"> <img src="images/icons/google-store.png" alt="" /> </a>
+                                <a href="https://apps.apple.com/us/app/barterunit/id1457207657" class="pl-md-4"> <img src="images/icons/app-store.png" alt="" /> </a>
+                            </div>
                         </div>
                     </div>
+                    <!--  -->
+                    <div class="col-md-6 col-lg-5">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s">
+                            <img class="img-fluid" src="images/graphics/graphic-19.png" alt="" />
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+        </section>
+        <!-- updatedBanner -->
 
-                    <div class="col-md-6 d-flex align-items-center">
-                        <div class="homeBannerImage wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
-                            <img class="img-fluid" src="images/banners/banner-mobile-screenv1.png" alt="" />
+        <section class="howItWorksBanner howItWorksBannerInner">
+            <div class="container">
+                <div class="bannerTop pt-0">
+                    <div class="row">
+                        <div class="col">
+                            <div class="screen01 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                                <p>
+                                    Snap, post and <br />
+                                    trade in seconds.
+                                </p>
+                                <img class="img-fluid" src="images/banners/screen-01.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="screen02 wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s">
+                                <img class="img-fluid" src="images/banners/screen-02.png" alt="" />
+                                <p>View postings locally.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="screen03 wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+                                <p>Buy, send or request barter units using your secure pocketbook.</p>
+                                <img class="img-fluid" src="images/banners/screen-03.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="screen04 wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+                                <img class="img-fluid" src="images/banners/screen-04.png" alt="" />
+                                <p>Make offers using our unique Barter Board.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="screen05 wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+                                <img class="img-fluid" src="images/banners/screen-05.png" alt="" />
+                                <p>Receive offers and send or request barter units via inbox.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!--  -->
+
+                <div class="livingFactsSection wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="livingFactsHeader">
+                        <h2>Living<span>Facts</span></h2>
+                        <p>FACTS THAT INFORM AND INSPIRE</p>
+                    </div>
+
+                    <div class="livingFactsBody">
+                        <div class="row flex-column-reverse flex-md-row">
+                            <div class="col-md-6">
+                                <div class="livingFactsList pt-4">
+                                    <ul>
+                                        <li>According to the National Association of Professional Organizers (NAPO), 80% of the items we keep are never used.</li>
+                                        <li>The average U.S. household has over 50 unused items worth $3100 according to eBay survey.</li>
+                                        <li>The average UK household has 42 unused items worth £2,600 according to eBay Survey.</li>
+                                        <li>British research found that the average 10-year-old owns 238 toys but plays with just 12 daily- even less if they have electronic gadgets.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-md-6">
+                                <div class="livingFactsImage">
+                                    <img class="img-fluid" src="images/graphics/graphic-20.png" alt="" />
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="livingFactsImage">
+                                    <img class="img-fluid" src="images/graphics/graphic-21.png" alt="" />
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-md-6">
+                                <div class="livingFactsList">
+                                    <ul>
+                                        <li>
+                                            The National Association of Professional Organizers (NAPO) reports that on average we spend one year of our lives looking for lost items. That’s over 8,700 hours looking for lost or misplaced
+                                            things!
+                                        </li>
+                                        <li>According to The National Soap and Detergent Association, getting rid of clutter eliminates 40% of housework in the average home.</li>
+                                        <li>The U.S. Department of Energy found that a startling 25% of people with 2-car garages couldn’t put a car in it because they use it to store other things.</li>
+                                        <li>
+                                            Women’s’ stress levels are directly proportional to the amount of stuff in their homes. UCLA Research has shown that women who perceive their homes to be cluttered tend to have unhealthy patterns
+                                            of cortisol levels.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+                <!-- livingFactsSection -->
             </div>
+
+            <img class="wave-13" src="images/graphics/wave-13.png" alt="" />
         </section>
         <!-- home-banner -->
 
-        <section class="whatIsIt sPadding" id="whatisit">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="doubleBG">
-                            <h2 class="title wow fadeInDown wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">WHAT ARE BARTERUNITS?</h2>
+        <img src="images/graphics/wave-08.png" class="waveImage" alt="" />
 
-                            <div class="backBox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-                                <p>
-                                    The BarterUnit®️ is a multinational alternative digital currency designed to run parallel with all national currencies and outlined to supplement during economic downturns and general times of economic
-                                    uncertainties. <br />
-                                    <br />
-                                    In short, the BarterUnit®️ is a cash alternative option that can be utilized within our network, during times of economic hardship or when the national currency is not sufficient. <br />
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-md-flex align-items-md-end">
-                        <div class="graphic01 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                            <img class="img-fluid" src="images/graphics/graphic-10.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- whatIsIt -->
-
-        <section class="sectionAgenda" id="agenda">
-            <img class="waveImage" src="images/graphics/wave-01.png" alt="" />
-            <div class="container pt-4 pb-4">
-                <div class="row">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="agendaImage wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                            <img class="img-fluid" src="images/graphics/graphic-02.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-7 d-flex align-items-center justify-content-center">
-                        <div class="doubleBG pl-5">
-                            <h2 class="title wow fadeInDown wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">AGENDA</h2>
-
-                            <div class="simpleBox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-                                <p>
-                                    The agenda of the BarterUnit®️ establishment is to spearhead the effort to make global socioeconomic change, by providing an alternative source of capital to help people meet their basic needs and
-                                    aspirations that are unmet by government-sponsored currency systems. Our primary agenda is to increase better living standards and to provide economic equality, freedom and security to all participants -
-                                    worldwide.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img class="waveImage" src="images/graphics/wave-02.png" alt="" />
-        </section>
-        <!--  -->
-
-        <section class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <div id="testimonailSlider" class="carousel slide carousel-fade" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="text-center sliderText">
-                                            <p>
-                                                Our economic experiment is expected to combat a broken <br />
-                                                and disproportionate economy <br />
-                                                and empower the economically marginalized. <img src="images/icons/quot.png" alt="" />
-                                            </p>
-                                        </div>
-                                        <div class="testimonailName">
-                                            <h2>Tim White / President of BarterUnit LLC</h2>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="text-center sliderText">
-                                            <p>The agenda of the BarterUnit establishment is to provide a privatized alternative source of capital to help people meet their basic needs. <img src="images/icons/quot.png" alt="" /></p>
-                                        </div>
-                                        <div class="testimonailName">
-                                            <h2>President of BarterUnit LLC</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--  -->
-
-        <section class="halfCircle sPadding" id="howDoesItworks">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
-                        <div class="doubleBG">
-                            <h2 class="title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">How does it work?</h2>
-
-                            <div class="backBox noAfter top60 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-                                <p>
-                                    The BarterUnit is outlined to promote a Dual-Economy with Dual-Currency Transactions. An economic system whereby you have, one national currency and one non-national currency (the BarterUnit®), both
-                                    working symbiotically for the purpose of sustainable economic growth and development, and to help facilitate the trade of goods and services when conventional money is scarce. BarterUnits® can also be
-                                    used to cover any possible value difference that may arise during a barter-exchange process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-md-flex align-items-md-end">
-                        <div class="graphic03 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                            <img class="img-fluid" src="images/graphics/graphic-11.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- howDoesItworks -->
-
-        <section class="easySteps pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="easyStepsInner">
-                            <h2>
-                                SHARE BARTER UNITS THROUGH <br />
-                                SOCIAL ECONOMIC COLLABORATION
-                            </h2>
-
-                            <h3>Easy as 1, 2, 3</h3>
-
-                            <div class="row no-gutters">
-                                <div class="col-md-4 d-flex align-items-end">
-                                    <div class="step01 step1Top wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <div class="step-1">
-                                            1
-                                        </div>
-                                        <div class="stepContent">
-                                            <p>
-                                                Download the app from <br />
-                                                our website or from <br />
-                                                the respective app stores.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="step01 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".7s">
-                                        <div class="step-1 ml-auto mr-auto">
-                                            2
-                                        </div>
-                                        <div class="stepContent step02">
-                                            <p>
-                                                Register and accept <br />
-                                                the Terms of Service <br />
-                                                and Privacy Policy.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="step01 step03 wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
-                                        <div class="step-1 ml-auto">
-                                            3
-                                        </div>
-                                        <div class="stepContent pb-3">
-                                            <p>
-                                                Use the app to post and trade <br />
-                                                your goods, services and <br />
-                                                unwanted items and use <br />
-                                                the digital wallet to manage <br />
-                                                acquired Barter Units and to make cost-free peer-to-peer and business payment transactions.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  -->
-
-                            <div class="row mt-3">
-                                <div class="col-md-6 col-lg-5">
-                                    <div class="graphics04 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                                        <img class="img-fluid" src="images/graphics/graphic-04.png" alt="" />
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 col-lg-7 d-flex align-items-center justify-content-end">
-                                    <div class="doubleBG">
-                                        <h2 class="title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">Barter Unit Value</h2>
-
-                                        <div class="backBox noAfter top60 leftBox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-                                            <p>
-                                                Each Barter Unit is identical to $1 U.S. dollar and is entirely digital. For example, if you acquire 20 barter units, then you would have a $20 value in barter units to trade or make purchases
-                                                with other BarterUnit members.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--  -->
-
-        <section class="sectionAgenda noAfter">
-            <img class="waveImage" src="images/graphics/wave-03.png" alt="" />
-            <div class="container pt-4 pb-4">
-                <div class="row">
-                    <div class="col-md-6 col-lg-6 d-flex align-items-center">
-                        <div class="doubleBG">
-                            <h2 class="title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">Participation is important!</h2>
-
-                            <div class="simpleBox mt-5 pt-2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-                                <p>The more people who respect and adopt the Barter Unit as an alternative form of currency, the more economically valuable the Barter Unit becomes.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-6">
-                        <div class="agendaImage wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                            <img class="img-fluid" src="images/graphics/graphic-05.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img class="waveImage" src="images/graphics/wave-04.png" alt="" />
-        </section>
-        <!-- important -->
-
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <div id="testimonailSlider02" class="carousel slide carousel-fade" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="text-center sliderText">
-                                            <p>
-                                                This is a fight for the soul of our country. If you want more purchasing power, if you want better living standards, if you want economic security and freedom, if you want to be part of an
-                                                economic revolution that helps the economically marginalized, then participate in adopting the Barter Unit. <img src="images/icons/quot.png" alt="" />
-                                            </p>
-                                        </div>
-                                        <div class="testimonailName">
-                                            <h2>Phillip H. Perez / Founder & CEO of BarterUnit LLC</h2>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="text-center sliderText">
-                                            <p>
-                                                This is a fight for the soul of our country. If you want more purchasing power, if you want better living standards, if you want economic security and freedom, if you want to be part of an
-                                                economic revolution that helps the economically marginalized, then participate in adopting the Barter Unit. <img src="images/icons/quot.png" alt="" />
-                                            </p>
-                                        </div>
-                                        <div class="testimonailName">
-                                            <h2>President of BarterUnit LLC</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- testimonailSlider02 -->
-
-        <section class="digitalMoney">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center digitalMoneyInner wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                            <p>WANT FREE DIGITAL MONEY?</p>
-                            <h1>YES PLEASE!</h1>
-
-                            <h3>BarterUnit LLC has independently established a Universal Basic Income (UBI) program, to help reduce and eliminate poverty and increase economic growth and stability.</h3>
-
-                            <a href="#">MORE DETAILS</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- digitalMoney -->
-
-        <section class="footerTop">
+        <section class="footerTop businessFooter">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -379,9 +196,9 @@
                     <div class="col-md-8">
                         <div class="pl-5">
                             <ul class="teamList d-flex justify-content-between">
-                                <li><a href="terms_of_service.php">Terms of Service </a></li>
+                            <li><a href="terms_of_service.php">Terms of Service </a></li>
                                 <li><a href="privacy_policy.php">Privacy Policy </a></li>
-                                <li><a href="#">Contact Us </a></li>
+                                <li><a href="#">Contact Us </a><br><span class="text-white">barterunit@gmail.com</span></li>
                             </ul>
                         </div>
                     </div>
@@ -392,14 +209,15 @@
                     <div class="col-md-8">
                         <div class="footerPlayIcon">
                             Experience our app on:
-                            <a href="#" class="ml-3"> <img src="images/icons/google-store.png" alt="" /> </a>
-                            <a href="#"> <img src="images/icons/app-store.png" alt="" /> </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.barterunit" class="ml-3"> <img src="images/icons/google-store.png" alt="" /> </a>
+                            <a href="https://apps.apple.com/us/app/barterunit/id1457207657"> <img src="images/icons/app-store.png" alt="" /> </a>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="folowUs text-right">
-                            follow us: <a href="#" class="ml-3"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
+                            follow us:  <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

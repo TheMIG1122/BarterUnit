@@ -1000,3 +1000,13 @@ img.wave-13 {
     -webkit-filter: drop-shadow(5px 5px 5px #b7b7b7ba);
     filter: drop-shadow(5px 5px 5px #b7b7b7ba);
 }
+
+
+@media screen and (max-width: 660px) {
+
+.livingFactsHeader h2 {
+    margin-top: 110px;
+    font-size: 40px;
+}
+
+}
