@@ -21,34 +21,36 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg barterNav">
-        <div class="container">
-            <a class="navbar-brand" href="#"> <img src="images/brand/logo.png" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="images/icons/menu_icon.png" alt="">
-            </button>
-            <ul class="navbar-nav ml-auto align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="how-it-works.html">HOW IT WORKS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="barterunit.php">BARTERUNITS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ubi.php">UBI</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="edc.php">MERCHANTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
-                        </li>
-                    </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg barterNav staticNav">
+            <div class="container">
+                <a class="navbar-brand d-block d-lg-none" href="#"> <img src="images/brand/logo.png" alt="" /> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="images/icons/menu_icon.png" alt="" />
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto align-items-center">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.php">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="how-it-works.html">HOW IT WORKS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="barterunit.php">BARTERUNITS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="ubi.php">UBI</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="edc.php">MERCHANTS</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
 <style type="text/css">
    .tos_content ul {
         list-style-type: disc;

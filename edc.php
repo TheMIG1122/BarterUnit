@@ -19,13 +19,14 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg barterNav">
-        <div class="container">
-            <a class="navbar-brand" href="#"> <img src="images/brand/logo.png" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="images/icons/menu_icon.png" alt="">
-            </button>
-            <ul class="navbar-nav ml-auto align-items-center">
+<nav class="navbar navbar-expand-lg barterNav">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="images/brand/logo.png" alt="" /> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="images/icons/menu_icon.png" alt="" />
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto align-items-center">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">HOME</a>
                         </li>
@@ -45,8 +46,9 @@
                             <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
                         </li>
                     </ul>
-        </div>
-    </nav>
+                </div>
+            </div>
+        </nav>
     <section class="homeBanner edcBanner">
         <div class="container">
             <div class="row">
@@ -236,7 +238,7 @@ Distribution:</h2>
 
                 <div class="col-md-5">
                     <div class="benefitSI wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                        <img class="img-fluid" src="images/graphics/graphic-10.png" alt="">
+                        <img class="img-fluid" src="images/graphics/graphic-101.png" alt="">
                     </div>
                 </div>
 
@@ -248,7 +250,7 @@ Distribution:</h2>
 
                 <div class="col-md-5">
                     <div class="benefitSI wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                        <img class="img-fluid" src="images/graphics/graphic-11.png" alt="">
+                        <img class="img-fluid" src="images/graphics/graphic-111.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-7 d-flex align-items-center">

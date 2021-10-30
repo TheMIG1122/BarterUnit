@@ -750,10 +750,11 @@ footer {
     margin-bottom: 15px;
 }
 .pocketBookSection img {
-    max-width: 700px;
+    max-width: 330px;
 }
 .pocketBookSection {
     position: relative;
+    overflow: hidden;
 }
 .pocketBookSection::after {
     content: "";

@@ -19,13 +19,14 @@
 </head>
 
 <body style="margin-top:-15px">
-    <nav class="navbar navbar-expand-lg barterNav">
-        <div class="container">
-            <a class="navbar-brand" href="#"> <img src="images/brand/logo.png" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="images/icons/menu_icon.png" alt="">
-            </button>
-            <ul class="navbar-nav ml-auto align-items-center">
+<nav class="navbar navbar-expand-lg barterNav">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="images/brand/logo.png" alt="" /> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="images/icons/menu_icon.png" alt="" />
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto align-items-center">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">HOME</a>
                         </li>
@@ -45,8 +46,9 @@
                             <a class="nav-link" href="business-listings.php">BUSINESS LISTINGS</a>
                         </li>
                     </ul>
-        </div>
-    </nav>
+                </div>
+            </div>
+        </nav>
 <section class="businessBanner">
 
 </section>
@@ -68,7 +70,7 @@
             </div>
             <div class="col-md-12 col-lg-6 col-xl-6 text-right pr-3">
                 <div class="graph12">
-                    <img src="images/graphics/graphic-12.png" alt="">
+                    <img src="images/graphics/graphic-121.png" alt="">
                 </div>
             </div>
         </div>

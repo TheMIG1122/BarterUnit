@@ -7,11 +7,12 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
 
         <!-- Bootstrap / Style CSS -->
+        <link rel="shortcut icon" href="images/banners/ubi-home-banner.png">
         <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/responsive.css" />
-        <title>Home | Barter Unit</title>
+        <title>BarterUnits | Barter Unit</title>
     </head>
 
     <body>
@@ -392,14 +393,14 @@
                     <div class="col-md-8">
                         <div class="footerPlayIcon">
                             Experience our app on:
-                            <a href="#" class="ml-3"> <img src="images/icons/google-store.png" alt="" /> </a>
-                            <a href="#"> <img src="images/icons/app-store.png" alt="" /> </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.barterunit" class="ml-3"> <img src="images/icons/google-store.png" alt="" /> </a>
+                            <a href="https://apps.apple.com/us/app/barterunit/id1457207657"> <img src="images/icons/app-store.png" alt="" /> </a>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="folowUs text-right">
-                            follow us:  <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
+                        follow us: <!-- <a href="#" class="ml-3"><i class="fab fa-facebook-f"></i></a>  --><a href="https://twitter.com/barterunit"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/barterunit/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

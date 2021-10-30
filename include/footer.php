@@ -57,13 +57,13 @@ Basic Income Program</h2>
     <script>
     new WOW().init();
 
-        $(window).scroll(function() {
-            var sticky = $('.navbar'),
-                scroll = $(window).scrollTop();
+        // $(window).scroll(function() {
+            // var sticky = $('.navbar'),
+                // scroll = $(window).scrollTop();
 
-            if (scroll >= 200) sticky.addClass('fixed');
-            else sticky.removeClass('fixed');
-        });
+            // if (scroll >= 200) sticky.addClass('fixed');
+            // else sticky.removeClass('fixed');
+        // });
 
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {

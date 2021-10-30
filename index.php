@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
 
         <!-- Bootstrap / Style CSS -->
+        <link rel="shortcut icon" href="images/banners/ubi-home-banner.png">
         <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -217,7 +218,7 @@
 
                     <div class="col-md-4">
                         <div class="folowUs text-right">
-                            follow us:  <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
+                        follow us: <!-- <a href="#" class="ml-3"><i class="fab fa-facebook-f"></i></a>  --><a href="https://twitter.com/barterunit"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/barterunit/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
